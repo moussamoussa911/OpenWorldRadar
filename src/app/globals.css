@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #07090d;
+  --foreground: #f3f7fb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #2ef2c5;
+  color: #06100f;
+}
+
+a {
+  text-underline-offset: 4px;
+}
+
+.city-grid {
+  background-image:
+    linear-gradient(rgba(46, 242, 197, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(46, 242, 197, 0.09) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, black, transparent 75%);
+}
+
+.editorial-prose h2 {
+  margin-top: 2.5rem;
+  font-size: clamp(1.6rem, 2vw, 2.25rem);
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.editorial-prose h3 {
+  margin-top: 1.75rem;
+  font-size: 1.25rem;
+  font-weight: 750;
+}
+
+.editorial-prose p {
+  margin-top: 1rem;
+  color: #c6d0dd;
+  line-height: 1.85;
+}
+
+.editorial-prose ul {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+  color: #c6d0dd;
+}
+
+.editorial-prose li {
+  margin-top: 0.5rem;
+}
