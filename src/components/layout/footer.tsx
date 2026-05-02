@@ -12,7 +12,7 @@ export function Footer() {
         <div>
           <p className="text-sm font-bold text-white">Projekt</p>
           <div className="mt-3 grid gap-2 text-sm text-slate-400">
-            <Link href="/about">Ueber uns</Link>
+            <Link href="/about">Über uns</Link>
             <Link href="/contact">Kontakt</Link>
             <Link href="/impressum">Impressum</Link>
             <Link href="/datenschutz">Datenschutz</Link>
@@ -21,7 +21,7 @@ export function Footer() {
         <div>
           <p className="text-sm font-bold text-white">Redaktion</p>
           <p className="mt-3 text-sm leading-6 text-slate-400">
-            Keine Cheats, Keys, Accounts oder Ingame-Waehrung. Fokus auf News, Quellen, Guides und saubere Setup-Beratung.
+            Keine Cheats, Keys, Accounts oder Ingame-Währung. Fokus auf News, Quellen, Guides und saubere Setup-Beratung.
           </p>
         </div>
       </div>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description: "Kontaktseite fuer OpenWorldRadar.",
+  description: "Kontaktseite für OpenWorldRadar.",
 };
 
 export default function ContactPage() {
@@ -10,7 +10,7 @@ export default function ContactPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
       <h1 className="text-4xl font-black text-white">Kontakt</h1>
       <p className="mt-5 text-lg leading-8 text-slate-300">
-        Fuer Quellenhinweise, Korrekturen, Kooperationen oder spaetere Affiliate-Anfragen kann hier ein Formular angebunden werden.
+        Für Quellenhinweise, Korrekturen, Kooperationen oder spätere Affiliate-Anfragen kann hier ein Formular angebunden werden.
       </p>
       <form className="mt-8 grid gap-4 rounded-md border border-white/10 bg-white/[0.045] p-5">
         <input className="rounded-md border border-white/10 bg-black/25 px-4 py-3 text-white" placeholder="Name" />

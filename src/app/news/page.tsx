@@ -5,7 +5,7 @@ import { articles, categories } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "News",
-  description: "Deutschsprachige GTA-6-News, Trailer-Analysen, Map-Theorien und Geruechtechecks mit sichtbarem Quellenstatus.",
+  description: "Deutschsprachige GTA-6-News, Trailer-Analysen, Map-Theorien und Gerüchtechecks mit sichtbarem Quellenstatus.",
 };
 
 export default function NewsPage() {
@@ -13,7 +13,7 @@ export default function NewsPage() {
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <h1 className="text-4xl font-black text-white sm:text-5xl">News</h1>
       <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-        Redaktionelle Uebersicht mit Kategorien, Lesedauer, Quellenfeld und Status: offiziell bestaetigt, plausibel analysiert, Spekulation oder Geruecht.
+        Redaktionelle Übersicht mit Kategorien, Lesedauer, Quellenfeld und Status: offiziell bestätigt, plausibel analysiert, Spekulation oder Gerücht.
       </p>
       <div className="mt-8 flex flex-wrap gap-2">
         {categories.map((category) => (

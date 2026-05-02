@@ -4,7 +4,7 @@ export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://openworldrad
 export const releaseDate = "2026-11-19T00:00:00+01:00";
 
 export const disclaimer =
-  "Dies ist eine inoffizielle Fan-Website. Grand Theft Auto, GTA, Rockstar Games und zugehoerige Marken gehoeren ihren jeweiligen Eigentümern. Diese Website ist nicht mit Rockstar Games oder Take-Two Interactive verbunden.";
+  "Dies ist eine inoffizielle Fan-Website. Grand Theft Auto, GTA, Rockstar Games und zugehörige Marken gehören ihren jeweiligen Eigentümern. Diese Website ist nicht mit Rockstar Games oder Take-Two Interactive verbunden.";
 
 export const categories = [
   "Offizielle News",
@@ -12,7 +12,7 @@ export const categories = [
   "Map & Locations",
   "Gameplay & Features",
   "Hardware & Setup",
-  "Geruechtecheck",
+  "Gerüchtecheck",
 ];
 
 export const authors: Author[] = [
@@ -20,13 +20,13 @@ export const authors: Author[] = [
     id: "redaktion",
     name: "OpenWorldRadar Redaktion",
     role: "Analyse & Guides",
-    bio: "Redaktioneller Account fuer quellenbasierte Einordnungen, Release-Updates und Setup-Ratgeber.",
+    bio: "Redaktioneller Account für quellenbasierte Einordnungen, Release-Updates und Setup-Ratgeber.",
   },
   {
     id: "setup-desk",
     name: "Setup Desk",
     role: "Hardware & Affiliate-Struktur",
-    bio: "Kuratiert Beispiel-Setups, Kaufkriterien und spaetere Affiliate-Daten ohne harte Produktversprechen.",
+    bio: "Kuratiert Beispiel-Setups, Kaufkriterien und spätere Affiliate-Daten ohne harte Produktversprechen.",
   },
 ];
 
@@ -52,10 +52,10 @@ export const articles: Article[] = [
     slug: "release-datum-19-november-2026-einordnung",
     title: "GTA 6 Release am 19. November 2026: Was offiziell bekannt ist",
     excerpt:
-      "Der aktuelle Release-Termin ist der wichtigste Fixpunkt fuer Planung, Plattformwahl und Setup-Fragen. Wir trennen bestaetigte Angaben von offenen Punkten.",
+      "Der aktuelle Release-Termin ist der wichtigste Fixpunkt für Planung, Plattformwahl und Setup-Fragen. Wir trennen bestätigte Angaben von offenen Punkten.",
     content: [
-      "Der derzeitige redaktionelle Stand fuer OpenWorldRadar fuehrt den 19. November 2026 als Zieltermin fuer den Release-Countdown. Konkrete Plattformdetails und spaetere Aenderungen muessen immer gegen offizielle Publisher-Quellen geprueft werden.",
-      "Wichtig ist die Trennung zwischen bestaetigten Aussagen und naheliegenden Erwartungen. Ein Release-Fenster oder Termin sagt noch nichts ueber PC-Verfuegbarkeit, technische Modi, Performance-Ziele oder Editionsmodelle aus.",
+      "Der derzeitige redaktionelle Stand für OpenWorldRadar fuehrt den 19. November 2026 als Zieltermin für den Release-Countdown. Konkrete Plattformdetails und spätere Aenderungen müssen immer gegen offizielle Publisher-Quellen geprüft werden.",
+      "Wichtig ist die Trennung zwischen bestätigten Aussagen und naheliegenden Erwartungen. Ein Release-Fenster oder Termin sagt noch nichts über PC-Verfuegbarkeit, technische Modi, Performance-Ziele oder Editionsmodelle aus.",
       "Unsere Release-Seite bleibt deshalb bewusst konservativ: Offizielle Informationen stehen getrennt von Analyse, Spekulation und Community-Theorien. Jede konkrete Behauptung bekommt ein Quellenfeld.",
     ],
     category: "Offizielle News",
@@ -76,9 +76,9 @@ export const articles: Article[] = [
     excerpt:
       "Der erste Trailer liefert Ton, Setting und viele visuelle Hinweise. Wir lesen die Bilder als Analyse, nicht als fertige Feature-Liste.",
     content: [
-      "Der offizielle Trailer bestaetigt das Leonida-Setting und etabliert einen Mix aus Grossstadt, Kuestenregionen, Nachtleben und Social-Media-Satire. Darueber hinaus bleibt vieles Interpretation.",
-      "Fuer Map-Theorien sind sichtbare Orte wertvoll, aber kein Beweis fuer die final spielbare Struktur. Trailer-Montagen koennen verdichten, verschieben oder gezielt inszeniert sein.",
-      "OpenWorldRadar markiert solche Ableitungen als Analyse oder Spekulation. Das macht die Diskussion nuetzlicher, weil Leser sofort sehen, wie belastbar eine Aussage ist.",
+      "Der offizielle Trailer bestätigt das Leonida-Setting und etabliert einen Mix aus Großstadt, Küstenregionen, Nachtleben und Social-Media-Satire. Darüber hinaus bleibt vieles Interpretation.",
+      "Für Map-Theorien sind sichtbare Orte wertvoll, aber kein Beweis für die final spielbare Struktur. Trailer-Montagen können verdichten, verschieben oder gezielt inszeniert sein.",
+      "OpenWorldRadar markiert solche Ableitungen als Analyse oder Spekulation. Das macht die Diskussion nützlicher, weil Leser sofort sehen, wie belastbar eine Aussage ist.",
     ],
     category: "Trailer & Analysen",
     tags: ["Trailer", "Leonida", "Analyse"],
@@ -98,8 +98,8 @@ export const articles: Article[] = [
     excerpt:
       "Welche Location-Typen sind plausibel, welche nur Wunschdenken? Ein quellenbewusster Blick auf aktuelle Theorien.",
     content: [
-      "Map-Theorien funktionieren am besten, wenn sie einzelne Beobachtungen nicht zu gross machen. Ein sichtbarer Highway oder Strandabschnitt ist ein Hinweis auf Atmosphaere, nicht automatisch auf Massstab.",
-      "Die staerksten Theorien kombinieren offizielle Trailer-Hinweise, erkennbare Motive und vorsichtige Parallelen zu bekannten Open-World-Strukturen.",
+      "Map-Theorien funktionieren am besten, wenn sie einzelne Beobachtungen nicht zu groß machen. Ein sichtbarer Highway oder Strandabschnitt ist ein Hinweis auf Atmosphaere, nicht automatisch auf Massstab.",
+      "Die stärksten Theorien kombinieren offizielle Trailer-Hinweise, erkennbare Motive und vorsichtige Parallelen zu bekannten Open-World-Strukturen.",
       "Unsere interaktive Map nutzt deshalb Wahrscheinlichkeitsstufen: offiziell, wahrscheinlich und Spekulation. So bleibt der Spass an Theorien erhalten, ohne sie als Fakten zu verkaufen.",
     ],
     category: "Map & Locations",
@@ -121,8 +121,8 @@ export const articles: Article[] = [
       "Affiliate-freundlich, aber vertrauenswuerdig: Welche Setup-Fragen wirklich vor dem Release zaehlen.",
     content: [
       "Ein gutes Setup beginnt nicht mit dem teuersten Produkt, sondern mit der Spielweise. Casual-Spieler brauchen andere Prioritaeten als Streamer oder Content-Creator.",
-      "Fuer Konsolenspieler sind Bildschirmgroesse, HDMI-Standards, HDR-Qualitaet, Sitzabstand und Audio oft wichtiger als reine Marketingzahlen.",
-      "Die Produktkarten in OpenWorldRadar sind als Datenstruktur vorbereitet. Affiliate-Links koennen spaeter zentral gepflegt werden, ohne redaktionelle Texte umzubauen.",
+      "Für Konsolenspieler sind Bildschirmgroesse, HDMI-Standards, HDR-Qualität, Sitzabstand und Audio oft wichtiger als reine Marketingzahlen.",
+      "Die Produktkarten in OpenWorldRadar sind als Datenstruktur vorbereitet. Affiliate-Links können später zentral gepflegt werden, ohne redaktionelle Texte umzubauen.",
     ],
     category: "Hardware & Setup",
     tags: ["Setup", "Affiliate", "Hardware"],
@@ -142,8 +142,8 @@ export const guideArticles: Article[] = [
     ...articles[3],
     id: "g1",
     slug: "ps5-oder-xbox-fuer-gta-6",
-    title: "PS5 oder Xbox fuer GTA 6?",
-    excerpt: "Ein ruhiger Vergleich fuer Spieler, die vor dem Release eine Plattformentscheidung planen.",
+    title: "PS5 oder Xbox für GTA 6?",
+    excerpt: "Ein ruhiger Vergleich für Spieler, die vor dem Release eine Plattformentscheidung planen.",
     category: "Hardware & Setup",
     tags: ["PS5", "Xbox", "Kaufberatung"],
   },
@@ -151,7 +151,7 @@ export const guideArticles: Article[] = [
     ...articles[3],
     id: "g2",
     slug: "bestes-setup-fuer-gta-6",
-    title: "Bestes Setup fuer GTA 6",
+    title: "Bestes Setup für GTA 6",
     excerpt: "So denkst du Monitor, Sound, Sitzabstand und Streaming-Zubehoer zusammen.",
     tags: ["Setup", "Monitor", "Audio"],
   },
@@ -159,16 +159,16 @@ export const guideArticles: Article[] = [
     ...articles[3],
     id: "g3",
     slug: "beste-monitore-fuer-open-world-games",
-    title: "Beste Monitore fuer Open-World-Games",
-    excerpt: "Worauf es bei grossen Spielwelten ankommt: Panel, HDR, Input Lag und Alltagstauglichkeit.",
+    title: "Beste Monitore für Open-World-Games",
+    excerpt: "Worauf es bei großen Spielwelten ankommt: Panel, HDR, Input Lag und Alltagstauglichkeit.",
     tags: ["Monitore", "Open World", "Ratgeber"],
   },
   {
     ...articles[3],
     id: "g4",
     slug: "beste-headsets-fuer-gta-6",
-    title: "Beste Headsets fuer GTA 6",
-    excerpt: "Kaufkriterien fuer Immersion, Chat, Streaming und lange Sessions.",
+    title: "Beste Headsets für GTA 6",
+    excerpt: "Kaufkriterien für Immersion, Chat, Streaming und lange Sessions.",
     tags: ["Headsets", "Audio", "Setup"],
   },
   {
@@ -176,7 +176,7 @@ export const guideArticles: Article[] = [
     id: "g5",
     slug: "gta-6-release-alles-was-offiziell-bekannt-ist",
     title: "GTA 6 Release: Alles, was offiziell bekannt ist",
-    excerpt: "Eine laufend erweiterbare Uebersicht fuer offizielle Release-Informationen.",
+    excerpt: "Eine laufend erweiterbare Übersicht für offizielle Release-Informationen.",
     tags: ["Release", "Offiziell", "FAQ"],
   },
   {
@@ -184,7 +184,7 @@ export const guideArticles: Article[] = [
     id: "g6",
     slug: "gta-6-map-was-wissen-wir-wirklich",
     title: "GTA 6 Map: Was wissen wir wirklich?",
-    excerpt: "Was Trailer-Hinweise leisten koennen und wo Spekulation beginnt.",
+    excerpt: "Was Trailer-Hinweise leisten können und wo Spekulation beginnt.",
     tags: ["Map", "Analyse", "Quellen"],
   },
 ];
@@ -198,33 +198,33 @@ export const products: Product[] = [
     platform: ["PS5", "Xbox Series X/S"],
     affiliateUrl: "",
     image: "budget",
-    pros: ["solide Einstiegskosten", "einfach aufzubauen", "gut fuer Couch- und Desk-Setups"],
-    cons: ["weniger Reserven fuer Streaming", "HDR-Qualitaet haengt stark vom Display ab"],
-    recommendationText: "Fuer Spieler, die GTA 6 moeglichst unkompliziert und preisbewusst erleben wollen.",
+    pros: ["solide Einstiegskosten", "einfach aufzubauen", "gut für Couch- und Desk-Setups"],
+    cons: ["weniger Reserven für Streaming", "HDR-Qualität hängt stark vom Display ab"],
+    recommendationText: "Für Spieler, die GTA 6 möglichst unkompliziert und preisbewusst erleben wollen.",
   },
   {
     id: "value-display",
     name: "Preis-Leistungs-Setup",
     category: "Display + Audio",
     priceRange: "ca. 800-1.300 EUR",
-    platform: ["PS5", "Xbox Series X/S", "Spaeter PC"],
+    platform: ["PS5", "Xbox Series X/S", "Später PC"],
     affiliateUrl: "",
     image: "value",
     pros: ["starker Allround-Fokus", "gute Upgrade-Basis", "ausgewogene Audio- und Bildprioritaeten"],
     cons: ["Produktwahl muss sorgfaeltig sein", "nicht automatisch Premium-HDR"],
-    recommendationText: "Fuer Spieler, die langfristig planen und keine reinen Marketingdaten kaufen wollen.",
+    recommendationText: "Für Spieler, die langfristig planen und keine reinen Marketingdaten kaufen wollen.",
   },
   {
     id: "creator-rig",
     name: "Streaming-Setup",
     category: "Creator",
     priceRange: "ca. 1.200-2.500 EUR",
-    platform: ["PS5", "Xbox Series X/S", "Spaeter PC"],
+    platform: ["PS5", "Xbox Series X/S", "Später PC"],
     affiliateUrl: "",
     image: "creator",
-    pros: ["Audio, Licht und Capture mitgedacht", "bereit fuer Clips und Streams", "skalierbar"],
-    cons: ["mehr Kabel und Setup-Zeit", "Overkill fuer reine Casual-Sessions"],
-    recommendationText: "Fuer Creator, die Analysen, Shorts oder Livestreams rund um Open-World-Games planen.",
+    pros: ["Audio, Licht und Capture mitgedacht", "bereit für Clips und Streams", "skalierbar"],
+    cons: ["mehr Kabel und Setup-Zeit", "Overkill für reine Casual-Sessions"],
+    recommendationText: "Für Creator, die Analysen, Shorts oder Livestreams rund um Open-World-Games planen.",
   },
 ];
 
@@ -232,8 +232,8 @@ export const mapPins: MapPin[] = [
   {
     id: "leonida-core",
     title: "Leonida City Core",
-    description: "Stilisierter Stadtkern fuer Trailer- und Skyline-Analysen. Offizielle Bildsprache, eigene Kartenform.",
-    category: "Staedte",
+    description: "Stilisierter Stadtkern für Trailer- und Skyline-Analysen. Offizielle Bildsprache, eigene Kartenform.",
+    category: "Städte",
     position: { x: 58, y: 42 },
     confidence: "official",
     source: trailerSource,
@@ -242,8 +242,8 @@ export const mapPins: MapPin[] = [
   {
     id: "coastline-strip",
     title: "Coastline Strip",
-    description: "Kuesten- und Strandzone als plausible Ableitung aus Trailer-Motiven.",
-    category: "Straende",
+    description: "Küsten- und Strandzone als plausible Ableitung aus Trailer-Motiven.",
+    category: "Strände",
     position: { x: 72, y: 68 },
     confidence: "likely",
     source: trailerSource,
@@ -262,7 +262,7 @@ export const mapPins: MapPin[] = [
   {
     id: "north-highway",
     title: "North Highway",
-    description: "Highway-Achse als Designannahme fuer schnelle Verbindungen zwischen Location-Typen.",
+    description: "Highway-Achse als Designannahme für schnelle Verbindungen zwischen Location-Typen.",
     category: "Highways",
     position: { x: 45, y: 24 },
     confidence: "speculation",
@@ -278,7 +278,7 @@ export const galleryImages: GalleryImage[] = [
     category: "Redaktionelle Illustration",
     credit: "OpenWorldRadar, generative Platzhaltergrafik",
     image: "city-countdown",
-    description: "Eigene redaktionelle Grafik fuer Release- und Countdown-Inhalte.",
+    description: "Eigene redaktionelle Grafik für Release- und Countdown-Inhalte.",
   },
   {
     id: "map-grid",
@@ -286,7 +286,7 @@ export const galleryImages: GalleryImage[] = [
     category: "Map-Theorie",
     credit: "OpenWorldRadar, eigene abstrakte Illustration",
     image: "map-grid",
-    description: "Keine offizielle Karte, sondern eine neutrale Struktur fuer Pins und Theorien.",
+    description: "Keine offizielle Karte, sondern eine neutrale Struktur für Pins und Theorien.",
   },
   {
     id: "desk",
@@ -294,7 +294,7 @@ export const galleryImages: GalleryImage[] = [
     category: "Setup",
     credit: "OpenWorldRadar, eigene Illustration",
     image: "desk",
-    description: "Platzhalter fuer spaetere lizenzierte Produkt- oder Studiofotos.",
+    description: "Platzhalter für spätere lizenzierte Produkt- oder Studiofotos.",
   },
   {
     id: "editorial-board",
@@ -302,7 +302,7 @@ export const galleryImages: GalleryImage[] = [
     category: "Analyse",
     credit: "OpenWorldRadar, eigene Illustration",
     image: "editorial-board",
-    description: "Visual fuer quellenbasierte Trailer-Notizen ohne kopierte Screenshots.",
+    description: "Visual für quellenbasierte Trailer-Notizen ohne kopierte Screenshots.",
   },
 ];
 
@@ -313,9 +313,9 @@ export const releaseFaq: FaqItem[] = [
       "OpenWorldRadar zaehlt aktuell auf den 19. November 2026 herunter. Aenderungen werden nur nach offizieller Quelle in den redaktionellen Daten aktualisiert.",
   },
   {
-    question: "Fuer welche Plattformen erscheint GTA 6?",
+    question: "Für welche Plattformen erscheint GTA 6?",
     answer:
-      "Plattformangaben muessen an offiziellen Publisher-Informationen gespiegelt werden. Diese Website trennt bestaetigte Angaben von Analyse und Erwartung.",
+      "Plattformangaben müssen an offiziellen Publisher-Informationen gespiegelt werden. Diese Website trennt bestätigte Angaben von Analyse und Erwartung.",
   },
   {
     question: "Gibt es eine PC-Version?",
@@ -330,9 +330,9 @@ export const releaseFaq: FaqItem[] = [
 ];
 
 export const milestones = [
-  { date: "2023-12-05", title: "Trailer 1", text: "Offizieller erster Trailer als Grundlage fuer Setting- und Tonanalyse." },
+  { date: "2023-12-05", title: "Trailer 1", text: "Offizieller erster Trailer als Grundlage für Setting- und Tonanalyse." },
   { date: "2026-05-01", title: "Redaktioneller Hub", text: "OpenWorldRadar startet als quellenbewusstes deutsches Fundament." },
-  { date: "2026-11-19", title: "Release-Countdown", text: "Zieltermin fuer Countdown, Guides und Setup-Planung." },
+  { date: "2026-11-19", title: "Release-Countdown", text: "Zieltermin für Countdown, Guides und Setup-Planung." },
 ];
 
 export const allArticles = [...articles, ...guideArticles];

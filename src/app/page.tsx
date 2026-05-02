@@ -17,10 +17,10 @@ export default function Home() {
         <div className="relative mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-24">
           <div className="min-w-0">
             <h1 className="w-full max-w-[calc(100vw-2rem)] text-[2.35rem] font-black leading-[1.08] tracking-tight text-white break-words sm:max-w-4xl sm:text-6xl">
-              Der inoffizielle deutsche Hub fuer GTA-6-News, Trailer-Analysen, Map-Theorien und Gaming-Setups.
+              Der inoffizielle deutsche Hub für GTA-6-News, Trailer-Analysen, Map-Theorien und Gaming-Setups.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-              OpenWorldRadar trennt offizielle Informationen, Analyse, Geruechte und Spekulation sichtbar voneinander. Fuer Leser, Creator und Spieler, die vorbereitet sein wollen.
+              OpenWorldRadar trennt offizielle Informationen, Analyse, Gerüchte und Spekulation sichtbar voneinander. Für Leser, Creator und Spieler, die vorbereitet sein wollen.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link href="/release" className="inline-flex items-center justify-center gap-2 rounded-md bg-cyan-300 px-5 py-3 text-sm font-black text-slate-950 hover:bg-cyan-200">
@@ -60,8 +60,8 @@ export default function Home() {
       <section className="border-y border-white/10 bg-white/[0.025]">
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 sm:px-6 lg:grid-cols-3 lg:px-8">
           <div className="lg:col-span-1">
-            <h2 className="text-3xl font-black text-white">Was ist offiziell bestaetigt?</h2>
-            <p className="mt-3 text-sm leading-6 text-slate-400">Diese Box ist bewusst konservativ. Nur Angaben mit offizieller Quelle gehoeren hier hinein.</p>
+            <h2 className="text-3xl font-black text-white">Was ist offiziell bestätigt?</h2>
+            <p className="mt-3 text-sm leading-6 text-slate-400">Diese Box ist bewusst konservativ. Nur Angaben mit offizieller Quelle gehören hier hinein.</p>
           </div>
           <div className="grid gap-4 lg:col-span-2 md:grid-cols-3">
             {[
@@ -83,13 +83,13 @@ export default function Home() {
         <Link href="/map" className="group rounded-md border border-white/10 bg-white/[0.045] p-5 hover:border-cyan-200/35">
           <Map className="text-lime-200" />
           <h2 className="mt-4 text-2xl font-black text-white">Interaktive Map-Theorien</h2>
-          <p className="mt-3 text-sm leading-6 text-slate-400">Eigene stilisierte Karte mit Pins fuer Staedte, Straende, Sumpfgebiete, Highways und Trailer-Orte.</p>
+          <p className="mt-3 text-sm leading-6 text-slate-400">Eigene stilisierte Karte mit Pins für Städte, Strände, Sumpfgebiete, Highways und Trailer-Orte.</p>
           <VisualCard name="map" className="mt-5 h-64" />
         </Link>
         <Link href="/setup-builder" className="group rounded-md border border-white/10 bg-white/[0.045] p-5 hover:border-cyan-200/35">
           <Gamepad2 className="text-fuchsia-200" />
           <h2 className="mt-4 text-2xl font-black text-white">Setup-Builder</h2>
-          <p className="mt-3 text-sm leading-6 text-slate-400">Quiz fuer Budget, Plattform, Spielweise und spaetere Affiliate-Produktdaten.</p>
+          <p className="mt-3 text-sm leading-6 text-slate-400">Quiz für Budget, Plattform, Spielweise und spätere Affiliate-Produktdaten.</p>
           <VisualCard name="setup" className="mt-5 h-64" />
         </Link>
       </section>

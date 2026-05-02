@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | OpenWorldRadar",
   },
   description:
-    "OpenWorldRadar ist ein inoffizieller deutschsprachiger Hub fuer GTA-6-News, Release-Countdowns, Trailer-Analysen, Map-Theorien und Gaming-Setups.",
+    "OpenWorldRadar ist ein inoffizieller deutschsprachiger Hub für GTA-6-News, Release-Countdowns, Trailer-Analysen, Map-Theorien und Gaming-Setups.",
   openGraph: {
     title: "OpenWorldRadar",
     description:

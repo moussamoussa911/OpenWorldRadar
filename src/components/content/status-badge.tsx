@@ -3,7 +3,7 @@ import type { ContentStatus, Confidence } from "@/lib/types";
 const labels: Record<ContentStatus | Confidence, string> = {
   official: "Offiziell",
   analysis: "Analyse",
-  rumor: "Geruecht",
+  rumor: "Gerücht",
   speculation: "Spekulation",
   likely: "Wahrscheinlich",
 };

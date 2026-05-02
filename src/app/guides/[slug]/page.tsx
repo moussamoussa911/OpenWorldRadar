@@ -45,7 +45,7 @@ export default async function GuideDetailPage({ params }: Props) {
             {article.content.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             <h2 id="redaktionelle-empfehlung">Redaktionelle Empfehlung</h2>
             <p>
-              Kaufe nicht nach Hype. Pruefe zuerst Plattform, Sitzabstand, Display-Qualitaet, Audio, Garantie und echte Nutzung. Produktlinks sollten spaeter transparent als Affiliate markiert werden.
+              Kaufe nicht nach Hype. Prüfe zuerst Plattform, Sitzabstand, Display-Qualität, Audio, Garantie und echte Nutzung. Produktlinks sollten später transparent als Affiliate markiert werden.
             </p>
           </div>
         </div>

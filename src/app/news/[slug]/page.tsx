@@ -56,19 +56,19 @@ export default async function ArticlePage({ params }: Props) {
           <VisualCard name={article.coverImage} className="mt-8 h-72 sm:h-96" />
           {article.status === "speculation" || article.status === "rumor" ? (
             <div className="mt-8 rounded-md border border-amber-200/25 bg-amber-200/8 p-5 text-sm leading-6 text-amber-100">
-              Dieser Artikel enthaelt spekulative Einordnungen. Bitte nicht als offiziell bestaetigte Information lesen.
+              Dieser Artikel enthaelt spekulative Einordnungen. Bitte nicht als offiziell bestätigte Information lesen.
             </div>
           ) : null}
           <div className="editorial-prose mt-10">
-            <h2 id="ueberblick">Ueberblick</h2>
+            <h2 id="überblick">Überblick</h2>
             {article.content.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             <h2 id="quellenlogik">Quellenlogik</h2>
             <p>
-              OpenWorldRadar fuehrt Quellen sichtbar am Artikel. Offizielle Aussagen, Analyse und Spekulation werden getrennt, damit Leser die Belastbarkeit jeder Aussage einschaetzen koennen.
+              OpenWorldRadar fuehrt Quellen sichtbar am Artikel. Offizielle Aussagen, Analyse und Spekulation werden getrennt, damit Leser die Belastbarkeit jeder Aussage einschaetzen können.
             </p>
-            <h2 id="naechste-schritte">Naechste Schritte</h2>
+            <h2 id="naechste-schritte">Nächste Schritte</h2>
             <p>
-              Vor einer Live-Veroeffentlichung sollten aktuelle offizielle Meldungen geprueft, Quellen aktualisiert und bei Bedarf Medien sauber eingebettet statt kopiert werden.
+              Vor einer Live-Veröffentlichung sollten aktuelle offizielle Meldungen geprüft, Quellen aktualisiert und bei Bedarf Medien sauber eingebettet statt kopiert werden.
             </p>
           </div>
           <div className="mt-8 flex flex-wrap gap-2">
@@ -84,9 +84,9 @@ export default async function ArticlePage({ params }: Props) {
           <div className="rounded-md border border-white/10 bg-white/[0.045] p-5">
             <p className="font-black text-white">Inhaltsverzeichnis</p>
             <div className="mt-3 grid gap-2 text-sm text-slate-400">
-              <a href="#ueberblick">Ueberblick</a>
+              <a href="#überblick">Überblick</a>
               <a href="#quellenlogik">Quellenlogik</a>
-              <a href="#naechste-schritte">Naechste Schritte</a>
+              <a href="#naechste-schritte">Nächste Schritte</a>
             </div>
           </div>
           <SourceBox sources={article.sources} />

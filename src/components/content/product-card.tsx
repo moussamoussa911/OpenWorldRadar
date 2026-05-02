@@ -32,7 +32,7 @@ export function ProductCard({ product }: { product: Product }) {
         href={product.affiliateUrl || "#"}
         className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-md border border-cyan-200/25 px-4 py-3 text-sm font-bold text-cyan-100 hover:bg-cyan-200/10"
       >
-        Affiliate-Link spaeter verbinden <ExternalLink size={15} />
+        Affiliate-Link später verbinden <ExternalLink size={15} />
       </a>
     </article>
   );

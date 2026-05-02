@@ -5,7 +5,7 @@ import { products } from "@/lib/data";
 import { ProductCard } from "@/components/content/product-card";
 
 const budgets = ["Budget", "Preis-Leistung", "Premium"] as const;
-const platforms = ["PS5", "Xbox Series X/S", "Spaeter PC"] as const;
+const platforms = ["PS5", "Xbox Series X/S", "Später PC"] as const;
 const styles = ["Casual", "Hardcore", "Streaming", "Content Creation"] as const;
 
 export function SetupQuiz() {
@@ -23,7 +23,7 @@ export function SetupQuiz() {
     <section className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
       <div className="rounded-md border border-white/10 bg-white/[0.045] p-5">
         <h2 className="text-2xl font-black text-white">Setup-Builder</h2>
-        <p className="mt-2 text-sm leading-6 text-slate-400">Waehle Budget, Plattform und Spielweise. Die Produktdaten sind affiliate-ready, aber aktuell bewusst ohne harte Links.</p>
+        <p className="mt-2 text-sm leading-6 text-slate-400">Wähle Budget, Plattform und Spielweise. Die Produktdaten sind affiliate-ready, aber aktuell bewusst ohne harte Links.</p>
         <fieldset className="mt-6">
           <legend className="text-sm font-bold text-cyan-100">Budget</legend>
           <div className="mt-3 grid gap-2 sm:grid-cols-3">
@@ -57,7 +57,7 @@ export function SetupQuiz() {
         </fieldset>
       </div>
       <div>
-        <p className="mb-3 text-sm font-bold text-slate-300">Empfehlung fuer {platform} · {style}</p>
+        <p className="mb-3 text-sm font-bold text-slate-300">Empfehlung für {platform} · {style}</p>
         <ProductCard product={result} />
       </div>
     </section>

@@ -58,7 +58,7 @@ export function Header() {
         <button
           className="grid h-10 w-10 place-items-center rounded-md border border-white/10 text-slate-100 md:hidden"
           onClick={() => setOpen((value) => !value)}
-          aria-label="Mobile Navigation oeffnen"
+          aria-label="Mobile Navigation öffnen"
           aria-expanded={open}
         >
           {open ? <X size={20} /> : <Menu size={20} />}

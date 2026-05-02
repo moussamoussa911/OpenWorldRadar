@@ -19,7 +19,7 @@ export function SourceBox({ sources }: { sources: Source[] }) {
         </ul>
       ) : (
         <p className="mt-3 text-sm leading-6 text-slate-400">
-          Fuer diesen redaktionellen Beispielinhalt ist noch keine externe Quelle hinterlegt. Vor Livegang bitte ergaenzen oder den Inhalt als Meinung markieren.
+          Für diesen redaktionellen Beispielinhalt ist noch keine externe Quelle hinterlegt. Vor Livegang bitte ergänzen oder den Inhalt als Meinung markieren.
         </p>
       )}
     </aside>

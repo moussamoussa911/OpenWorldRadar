@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Datenschutz",
-  description: "Datenschutz-Platzhalter fuer OpenWorldRadar.",
+  description: "Datenschutz-Platzhalter für OpenWorldRadar.",
 };
 
 export default function DatenschutzPage() {
@@ -11,7 +11,7 @@ export default function DatenschutzPage() {
       <h1 className="text-4xl font-black text-white">Datenschutz</h1>
       <div className="editorial-prose mt-8">
         <p>
-          Diese Seite ist als Struktur vorbereitet. Vor Livegang muessen Newsletter-Provider, Analytics, Hosting, Cookies und Kontaktformular technisch und rechtlich konkret dokumentiert werden.
+          Diese Seite ist als Struktur vorbereitet. Vor Livegang müssen Newsletter-Provider, Analytics, Hosting, Cookies und Kontaktformular technisch und rechtlich konkret dokumentiert werden.
         </p>
         <p>Es werden keine API-Keys oder privaten Tokens im Repository gespeichert.</p>
       </div>

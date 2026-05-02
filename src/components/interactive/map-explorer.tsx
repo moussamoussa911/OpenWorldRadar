@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { mapPins } from "@/lib/data";
 import { StatusBadge } from "@/components/content/status-badge";
 
-const filters = ["Alle", "Staedte", "Straende", "Sumpfgebiete", "Highways", "Trailer-Orte", "Spekulationen"];
+const filters = ["Alle", "Städte", "Strände", "Sumpfgebiete", "Highways", "Trailer-Orte", "Spekulationen"];
 
 export function MapExplorer() {
   const [filter, setFilter] = useState("Alle");

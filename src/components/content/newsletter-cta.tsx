@@ -13,7 +13,7 @@ export function NewsletterCTA() {
             Erhalte offizielle Updates, Analysen und Setup-Deals direkt per Mail.
           </h2>
           <p className="mt-3 text-sm leading-6 text-slate-300">
-            Integration vorbereitet fuer Brevo, Mailchimp, ConvertKit oder Supabase. Noch kein Versand ohne aktive Provider-Konfiguration.
+            Integration vorbereitet für Brevo, Mailchimp, ConvertKit oder Supabase. Noch kein Versand ohne aktive Provider-Konfiguration.
           </p>
         </div>
         <form className="grid gap-3 sm:grid-cols-[1fr_auto]" action="#" aria-label="Newsletter anmelden">
@@ -26,7 +26,7 @@ export function NewsletterCTA() {
           <button className="min-h-12 rounded-md bg-cyan-300 px-5 text-sm font-black text-slate-950 hover:bg-cyan-200">
             Vormerken
           </button>
-          <p className="sm:col-span-2 text-xs leading-5 text-slate-500">Double-Opt-in und Datenschutztext koennen beim Provider-Anschluss ergaenzt werden.</p>
+          <p className="sm:col-span-2 text-xs leading-5 text-slate-500">Double-Opt-in und Datenschutztext können beim Provider-Anschluss ergänzt werden.</p>
         </form>
       </div>
     </section>

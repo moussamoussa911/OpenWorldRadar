@@ -6,7 +6,7 @@ import { products } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Setup-Builder",
-  description: "Affiliate-freundlicher GTA-6-Setup-Builder fuer Budget, Plattform, Spielweise und spaetere Produktdaten.",
+  description: "Affiliate-freundlicher GTA-6-Setup-Builder für Budget, Plattform, Spielweise und spätere Produktdaten.",
 };
 
 export default function SetupBuilderPage() {
@@ -14,7 +14,7 @@ export default function SetupBuilderPage() {
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <h1 className="text-4xl font-black text-white sm:text-5xl">Setup-Builder</h1>
       <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-        Finde ein sinnvolles Setup-Profil fuer Konsole, spaetere PC-Planung, Streaming oder Content Creation. Affiliate-Links bleiben zentral in den Produktdaten.
+        Finde ein sinnvolles Setup-Profil für Konsole, spätere PC-Planung, Streaming oder Content Creation. Affiliate-Links bleiben zentral in den Produktdaten.
       </p>
       <div className="mt-10">
         <SetupQuiz />
