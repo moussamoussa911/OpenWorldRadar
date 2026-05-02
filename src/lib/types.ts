@@ -8,6 +8,9 @@ export type Source = {
   publisher: string;
   date: string;
   type: SourceType;
+  accessedAt?: string;
+  trustLevel?: "primary" | "secondary" | "community";
+  notes?: string;
 };
 
 export type Author = {
@@ -72,4 +75,16 @@ export type GalleryImage = {
 export type FaqItem = {
   question: string;
   answer: string;
+};
+
+export type MediaAsset = {
+  id: string;
+  title: string;
+  kind: "original-illustration" | "official-download" | "official-embed" | "licensed-photo" | "affiliate-product";
+  recommendedUse: string;
+  riskLevel: "low" | "medium" | "high";
+  creditLine: string;
+  source?: Source;
+  storage: "local" | "remote-link-only" | "future-cms";
+  notes: string;
 };

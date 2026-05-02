@@ -13,7 +13,9 @@ export function SourceBox({ sources }: { sources: Source[] }) {
               </a>
               <p className="mt-1 text-xs text-slate-400">
                 {source.publisher} · {new Date(source.date).toLocaleDateString("de-DE")} · {source.type}
+                {source.trustLevel ? ` · ${source.trustLevel}` : ""}
               </p>
+              {source.notes ? <p className="mt-2 text-xs leading-5 text-slate-500">{source.notes}</p> : null}
             </li>
           ))}
         </ul>

@@ -71,6 +71,7 @@ Wichtig: Jede konkrete Behauptung zu GTA 6 sollte ein Quellenfeld bekommen. Spek
 - Keine Cheats, Hacks, Keys, Accounts oder Ingame-Währung anbieten.
 - Trailer-Screens nur rechtlich sauber einbetten, lizenzieren oder korrekt referenzieren.
 - Disclaimer bleibt im Footer jeder Seite sichtbar.
+- Quellen- und Medienstrategie: `docs/source-and-media-strategy.md`
 
 ## Nächste Schritte
 
